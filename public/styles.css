@@ -526,3 +526,7 @@ section { scroll-margin-top: 16px; }
 @media (max-width: 760px) { .rs-hero-grid { grid-template-columns: 1fr; gap: 28px; } .portrait { justify-self: start; } .portrait img { width: 180px; height: 180px; } }
 @media print { .portrait { display: none; } }
 .rs-sec > h2 { margin-bottom: 14px; }
+
+/* Calendly booking card */
+.booking-card { padding: 12px; }
+.booking-card .booking-note { margin: 4px 14px 8px; color: var(--muted); font-size: 0.95rem; }
